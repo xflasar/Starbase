@@ -1,0 +1,3 @@
+if:M1==0thengoto1end
+if:M1 and:TP1>2then:TP1-=1 goto2end
+if:M1 and:TP1<8then:TP1+=1 goto3endgoto1

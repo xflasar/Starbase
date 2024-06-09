@@ -1,0 +1,7 @@
+if:M1==0thengoto1end
+if:RM1>21 or:RM2>21then:FCUFORWARD=0.22 goto2 end
+if:RM3>21 or:RM4>21then:FCUFORWARD=0.22 goto3 endgoto1
+
+# :M1 is LaserOn
+# :RM1 to 4 are RangeFinders
+# :FCUFORWARD is FCU field for forward thrust
